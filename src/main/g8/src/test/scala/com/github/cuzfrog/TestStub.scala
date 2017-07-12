@@ -1,11 +1,9 @@
 package com.github.cuzfrog
 
-import utest._
+import org.junit._
+import org.junit.Assert._
+import org.hamcrest.CoreMatchers._
 
-object TestStub extends TestSuite{
-  val tests = this{
-    'dummy{
-      println("test stub.")
-    }
-  }
+class TestStub {
+
 }
